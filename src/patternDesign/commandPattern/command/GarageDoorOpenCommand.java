@@ -2,6 +2,7 @@ package patternDesign.commandPattern.command;
 
 import patternDesign.commandPattern.things.GarageDoor;
 
+
 public class GarageDoorOpenCommand implements Command{
     GarageDoor garageDoor;
 
@@ -12,5 +13,10 @@ public class GarageDoorOpenCommand implements Command{
     @Override
     public void execute() {
         this.garageDoor.up();
+    }
+
+    @Override
+    public void undo(){
+        this.garageDoor.down();
     }
 }

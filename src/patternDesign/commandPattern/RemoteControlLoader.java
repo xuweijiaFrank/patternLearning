@@ -4,7 +4,7 @@ import patternDesign.commandPattern.command.LightOffCommand;
 import patternDesign.commandPattern.command.LightOnCommand;
 import patternDesign.commandPattern.things.Light;
 
-public class RemoteControlTest {
+public class RemoteControlLoader {
     public static void main(String[] args){
         RemoteControl remoteControl = new RemoteControl();
 

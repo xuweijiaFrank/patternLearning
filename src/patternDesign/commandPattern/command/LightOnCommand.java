@@ -10,7 +10,12 @@ public class LightOnCommand implements Command {
         this.light = light;
     }
 
+    @Override
+    public void undo() {
+        this.light.off();
+    }
+
     public void execute() {
-        light.on();
+        this.light.on();
     }
 }
