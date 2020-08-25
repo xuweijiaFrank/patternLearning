@@ -1,4 +1,6 @@
-package patternDesign.decoratorPattern;
+package patternDesign.decoratorPattern.condiment;
+
+import patternDesign.decoratorPattern.beverage.Beverage;
 
 /**
  * 添加的料

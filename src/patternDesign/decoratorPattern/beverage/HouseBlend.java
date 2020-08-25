@@ -1,4 +1,4 @@
-package patternDesign.decoratorPattern;
+package patternDesign.decoratorPattern.beverage;
 
 /**
  * 主料，综合内容

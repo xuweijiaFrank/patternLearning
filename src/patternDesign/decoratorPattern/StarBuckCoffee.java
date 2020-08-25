@@ -1,5 +1,11 @@
 package patternDesign.decoratorPattern;
 
+import patternDesign.decoratorPattern.condiment.Milk;
+import patternDesign.decoratorPattern.condiment.Mocha;
+import patternDesign.decoratorPattern.beverage.Beverage;
+import patternDesign.decoratorPattern.beverage.Espresso;
+import patternDesign.decoratorPattern.beverage.HouseBlend;
+
 public class StarBuckCoffee {
     public static void main(String[] args){
         Beverage beverage = new Espresso();

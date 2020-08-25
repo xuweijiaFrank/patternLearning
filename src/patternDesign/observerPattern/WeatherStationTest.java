@@ -1,6 +1,6 @@
 package patternDesign.observerPattern;
 
-public class WeatherStation {
+public class WeatherStationTest {
     public static void main(String[] args){
         WeatherData weatherData = new WeatherData();
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
